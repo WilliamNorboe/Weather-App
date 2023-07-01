@@ -7,7 +7,25 @@
 </head>
 <body>
 
-    
+    <div id = "contents">
+        <p class = "title">Weather App</p>
+        <div class = "searchInfo">
+            <label for = "locationInput">Location: </label>
+            <input type = "text" id = "locationInput" name = "locationInput" value = "London">
+            <select name="temperature" id="temperature">
+                <option value="farenheit">Fahrenheit</option>
+                <option value="calcius">Celcius</option>
+            </select>
+            <button id = "search">Search</button>
+        </div>
+
+        <div id = "imageHere"><img id = "wimg"></div>
+
+        <p class = "tempInfo">47 degrees farhenhein in London</p>
+    </div>
+
+
+
     <script src = "main.js"></script>
 </body>
 </html>
