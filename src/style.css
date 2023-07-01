@@ -7,6 +7,11 @@
 body{
     /* background-color: blue; */
     font-family: 'Geologica', sans-serif;
+    background: url('./background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #contents{
@@ -14,7 +19,7 @@ body{
     display: flex;
 }
 .title{
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Abel', sans-serif;
     text-align: center;
 }

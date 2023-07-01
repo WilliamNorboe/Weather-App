@@ -1,4 +1,5 @@
 import './style.css';
+import Background from './background.png'
 
 let image = document.querySelector("#wimg");
 let searchBtn = document.querySelector("#search");
