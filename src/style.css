@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Geologica&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
 body{
     /* background-color: blue; */
+    font-family: 'Geologica', sans-serif;
+}
+
+#contents{
+    flex-direction: column;
+    display: flex;
+}
+.title{
+    font-size: 50px;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+
+.searchInfo{
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.searchInfo input{
+    height: 35px;
+    width: 50%;
+    font-size: 25px;
+}
+
+.searchInfo select{
+    height: 35px;
+    font-size: 15px;
+}
+
+.searchInfo button{
+    height: 40px;
+    width:100px;
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+    border-radius: 10px;
+}
+
+#imageHere{
+    width: 400px;
+    align-self: center;
+    margin-top: 50px;
+}
+
+#wimg{
+    width: 400px;
+    border-radius: 20px;
+}
+.tempInfo{
+    font-size: 50px;
+    align-self: center;
 }
